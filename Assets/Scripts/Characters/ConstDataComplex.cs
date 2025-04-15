@@ -7,9 +7,26 @@
  * 해당 정보를 서브메쉬로 넣어서 외곽라인 만들것
  * 
  * */
-class ButterConstData
+public static class AnimationList
 {
-    private const int Ear_R = 25;
+    public const string Aim_Down = "Aim_Down";                   // 1
+    public const string Aim_Up = "Aim_Up";                      // 1
+    public const string Crouch = "Crounch";                     // 0 
+    public const string Flutter = "Flutter";                     // 2 with jump
+    public const string Idle_Front = "Idle_Front";             // 0
+    public const string Jump_Idle = "Jump_Idle";              // 0
+    public const string Jump_Move = "Jump_Move";              // 0
+    public const string Move_Front = "Move_Front";             // 0
+    public const string NOANIM = "NOANIM";
+    public const string ShootHG_Crouch = "ShootHG_Crounch";     // 1 in Crounch
+    public const string ShootHG_Down = "ShootHG_Down";          // 1 in Jump
+    public const string ShootHG_Front = "ShootHG_Front";        // 1
+    public const string ShootHG_Up = "ShootHG_Up";             // 1
+}
+class ConstDataComplex
+{
+//버터 스파인 버텍스 리스트
+private const int Ear_R = 25;
     private const int Ahoge = 37;
     private const int Back_Hair = 67;
     private const int Tail = 93;

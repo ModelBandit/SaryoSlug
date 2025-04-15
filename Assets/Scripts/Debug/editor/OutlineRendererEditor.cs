@@ -24,7 +24,8 @@ public class OutlineRendererEditor : Editor
         base.OnInspectorGUI();
         if(GUILayout.Button("Vector Calcurator"))
         {
-            module.VectorCalcu();
+            Debug.Log("Nothing In Here");
+            //module.VectorCalcu();
         }
     }
 }
